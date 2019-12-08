@@ -1,0 +1,165 @@
+/*GLOBAL*/
+
+body{
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+div{
+
+  padding: 20px;
+}
+
+h1{
+  font-size: 500%;
+  margin: 50px auto 20px auto;
+  font-family: 'Sacramento', cursive;
+  color: #fbc1bc;
+  font-weight: 600;
+
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #233567;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+
+
+hr{
+  border-top: 5px dotted;
+  width: 10%;
+  margin: 50px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+
+/*TOP-CONTAINER*/
+
+.top-container{
+  background-color: #233567;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 0;
+
+}
+
+.programmer{
+  font-size: 1.2rem;
+  color: #fbc1bc;
+  font-weight: normal;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+
+
+
+/*MIDDLE-CONTAINER*/
+
+.middle-container{
+  background-color: #fef6fb;
+}
+
+.profilepic{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+
+}
+
+/*-Skill　division*/
+
+
+.skill-row{
+  width: 50%;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.skill-img{
+  margin-top:20px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.globe-img{
+  margin-top:20px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*-Contact division*/
+
+.contact-h3{
+  margin: 60px auto;
+}
+
+
+.btn-hldr{
+  margin: 50px auto;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #FBC1BC;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(to bottom, #233567, #233567);
+    border-radius: 5px;
+    padding:15px;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.btn:hover{
+  color: #fef6fb;
+}
+
+
+/*BOTTOM-CONTAINER*/
+
+.bottom-container{
+  background-color: #233567;
+}
+
+.footer-link{
+
+  color: #fbc1bc;
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #fef6fb;
+}
